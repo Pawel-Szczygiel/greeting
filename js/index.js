@@ -12,8 +12,8 @@ function animateText() {
         span.className = `text-animate _${idx - i - 1 * 1 }`;
         span.textContent = char;
         h1.prepend(span);
-
-        if (i == 1) h1.append(document.createElement('br'));
+      
+        if (i == 1)  h1.append(document.createElement('br'));
         
     });
 
